@@ -19,7 +19,14 @@ namespace MudrakPatel_Test01_Ex01
 
         private void updateDetailsButton_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                
+            }
+            catch (Exception exception)
+            {
+                
+            }
         }
     }
 }
