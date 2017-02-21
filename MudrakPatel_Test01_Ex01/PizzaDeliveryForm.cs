@@ -16,5 +16,44 @@ namespace MudrakPatel_Test01_Ex01
         {
             InitializeComponent();
         }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clearSummaryButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                orderSummaryTextBox.Clear();
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message, "System error!");
+            }
+        }
+
+        private void placeOrderButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Application.Exit();
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message, "System error!");
+            }
+        }
     }
 }
