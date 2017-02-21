@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MudrakPatel_Test01_Ex01
 {
-    public partial class Form1 : Form
+    public partial class PizzaDeliveryForm : Form
     {
-        public Form1()
+        public PizzaDeliveryForm()
         {
             InitializeComponent();
         }

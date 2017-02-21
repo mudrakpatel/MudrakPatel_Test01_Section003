@@ -16,7 +16,7 @@ namespace MudrakPatel_Test01_Ex01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new PizzaDeliveryForm());
         }
     }
 }

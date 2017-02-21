@@ -1,6 +1,6 @@
 ﻿namespace MudrakPatel_Test01_Ex01
 {
-    partial class Form1
+    partial class PizzaDeliveryForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // PizzaDeliveryForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(673, 367);
+            this.Name = "PizzaDeliveryForm";
+            this.Text = "Pizza ordering system";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
